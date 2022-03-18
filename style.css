@@ -1,6 +1,8 @@
 body {
     background-color: rgb(127, 255, 165);
     text-align: center;
+    border: 50px;
+
 }
 
 #text {
@@ -26,6 +28,8 @@ h2 {
 :root {
     font-size: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 30px;
+    border-color: blue;
 }
 
 ul {

@@ -1,0 +1,41 @@
+
+#main{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+body{
+    background-color: rgb(31, 60, 156);
+}
+
+.center {
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+}
+
+#title{
+    max-width: fit-content;
+    color: white;
+}
+
+#image{
+    max-width: 250px;
+}
+
+#img-caption{
+    color: white;
+    font-size: 20px;
+}
+
+#tribute-info{
+    color: white;
+    font-size: 25px;
+}
+
+#tribute-link{
+    font-size: 25px;
+}
+
+a:hover {
+    color:teal;
+}

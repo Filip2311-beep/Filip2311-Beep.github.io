@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: rgb(31, 60, 156);
+    background: linear-gradient(35deg, #305bdf,#56A7F5,#1fcbff);
 }
 
 .center {
@@ -16,26 +16,40 @@ body{
 #title{
     max-width: fit-content;
     color: white;
+    display: flex;
 }
 
 #image{
     max-width: 250px;
+    border: 4px dashed #0f47f0;
+    display: block;
 }
 
 #img-caption{
     color: white;
     font-size: 20px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
 }
 
 #tribute-info{
     color: white;
     font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 10;
+    padding-left: -10px;
+    line-height: 50px;
 }
 
 #tribute-link{
     font-size: 25px;
+    display: flex;
+    justify-content: center;
 }
 
 a:hover {
-    color:teal;
+    color:rgb(201, 64, 201);
 }

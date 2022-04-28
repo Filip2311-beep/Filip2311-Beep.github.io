@@ -1,5 +1,15 @@
 body {
-    background-color: #3737a3;
+    background-color: #1a1a1d;
+    display: flex;
+    flex-direction: column;
+}
+
+#Survey {
+    display: flex;
+    flex-direction: column;
+    background-color: #950740;
+    padding: 30px;
+    margin: 60px;
 }
 
 #title {

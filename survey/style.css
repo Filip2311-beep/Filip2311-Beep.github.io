@@ -16,10 +16,24 @@ body {
     size: 30px;
     text-align: center;
     font-weight: bold;
+    color: aliceblue;
 }
 
 #description {
     size: 20px;
     text-align: center;
     font-weight: bold;
+    color: aliceblue;
+}
+
+#name {
+    display: flex;
+    float:inline-start;
+    padding: 30px;
+    padding-bottom: 30px;
+}
+
+#name-input {
+    display: flex;
+    
 }

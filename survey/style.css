@@ -1,5 +1,6 @@
+
 body {
-    background-color: #1a1a1d;
+    background: linear-gradient(35deg,#1c1cd6,#bf18c5);
     display: flex;
     flex-direction: column;
 }
@@ -7,7 +8,7 @@ body {
 #Survey {
     display: flex;
     flex-direction: column;
-    background-color: #950740;
+    background-color: #f80e6b;
     padding: 30px;
     margin: 60px;
 }

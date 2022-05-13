@@ -20,10 +20,14 @@
 </div>
 
 <div id="Survey">
-    <form>
-        <div>
-            <label id="name">What is your name?</label>
+    <form id="survey-form">
+        <div id="name">
+            <label id="name-label">What is your name?</label>
              <input type="text" name="name" class="form-control" placeholder="Enter your name" required>
+        </div>
+        <div id="email">
+            <label id="email-label">What is your email?</label>
+            <input type="email">
         </div>
         <div>
             <label>What is your favorite movie?</label>
@@ -58,7 +62,10 @@
         <div>
             <label>In school, what school lunch do you enjoy the most?</label>
         </div>
-        
+        <div id="number">
+            <label id="number-label">How many times did you cry when playing a horror game?</label>
+            <input type="number-input" name="cry" id="number" min="1" max="99" class="form-control" placeholder="1-99">
+        </div>
     </form>
 </div>
 

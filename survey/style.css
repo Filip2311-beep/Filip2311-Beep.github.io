@@ -29,12 +29,9 @@ body {
 
 #name {
     display: flex;
-    float:inline-start;
-    padding: 30px;
-    padding-bottom: 30px;
+    
 }
 
 #name-input {
     display: flex;
-    
 }

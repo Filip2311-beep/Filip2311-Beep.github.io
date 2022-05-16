@@ -26,44 +26,58 @@
              <input type="text" name="name" class="form-control" placeholder="Enter your name" required>
         </div>
         <div id="email">
-            <label id="email-label">What is your email?</label>
-            <input type="email">
+            <label id="email-label">Put your email below in the text box.</label>
+            <input type="email" required placeholder="Enter your email">
         </div>
         <div>
             <label>What is your favorite movie?</label>
-            <input type="text" name="movie" placeholder="Place Movie Here">
+            <input type="text" name="movie" placeholder="Enter your movie">
         </div> 
         <div>
             <label>Do you prefer driving or walking?</label> 
-            <input type="radio">
+            <input type="radio" name="modeOfTransport" value="Driving"> <label>Driving</label> <input type="radio" value="Walking" name="modeOfTransport"> <label> Walking</label>
         </div>
         <div>
             <label>Do you enjoy collecting cards?</label>
-
+            <input type="radio" name="cards" value="Yes"> <label>Yes</label> <input type="radio" name="cards" value="No"> <Label>No</Label>
         </div>
         <div>
-            <label>Do you enjoy sports?</label>
+            <label>What sport do you play the most?</label>
+            <select name="favSports" required> 
+                <option disabled selected value> Select a sport from below</option>
+                <option value> Soccer </option>
+                <option value> Football </option>
+                <option value> Basketball </option>
+                <option value> Tennis </option>
+                <option value> Esports Pro </option>
+                </select>
         </div>
         <div>
             <label>Do you enjoy Woodworking?</label>
+            <input type="radio" name="woodworking" value="Yes"> <label>Yes</label> <input type="radio" name="woodworking" value="No"> <Label>No</Label>
         </div>
         <div>
             <label>Can you ride a bike?</label>
+            <input type="radio">
         </div>
         <div>
             <label>When enjoying your video games, what liquid do you tend to drink?</label>
+            <input type="text">
         </div>
         <div>
             <label>Have you watched Black Clover?</label>
+            <input type="radio">
         </div>
         <div>
             <label>What is your favorite subject in school? </label>
+            <input type="text">
         </div>
         <div>
             <label>In school, what school lunch do you enjoy the most?</label>
+            <input type="text">
         </div>
         <div id="number">
-            <label id="number-label">How many times did you cry when playing a horror game?</label>
+            <label id="number-label">When playing a scary game, how many times do you actually get scared?</label>
             <input type="number-input" name="cry" id="number" min="1" max="99" class="form-control" placeholder="1-99">
         </div>
     </form>

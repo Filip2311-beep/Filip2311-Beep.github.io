@@ -12,80 +12,97 @@
     <!-- Do not delete the line below. It provides the test suite for user stories. -->
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
-<div>
+    <div>
 
-    <h1 id="title">Filip's Survey Form</h1>
-    <p id="description">Submit your response today!</p> 
-    
-</div>
+        <h1 id="title">Filip's Survey Form</h1>
+        <p id="description">Submit your response today!</p>
 
-<div id="Survey">
-    <form id="survey-form">
-        <div id="name">
-            <label id="name-label" for="name">What is your name?</label>
-             <input id="name" type="name" name="name" id="name" required placeholder="Enter your name">
-        </div>
-        <div>
-            <label id="email-label">Put your email below in the text box.</label>
-            <input type="email" id="email" required placeholder="Enter your email">
-        </div>
-        <div>
-            <label>What is your favorite movie?</label>
-            <input type="text" name="movie" placeholder="Enter your movie">
-        </div> 
-        <div>
-            <label>Do you prefer driving or walking?</label> 
-            <input type="radio" name="modeOfTransport" value="Driving"> <label>Driving</label> <input type="radio" value="Walking" name="modeOfTransport"> <label> Walking</label>
-        </div>
-        <div>
-            <label>Do you enjoy collecting cards?</label>
-            <input type="radio" name="cards" value="Yes"> <label>Yes</label> <input type="radio" name="cards" value="No"> <Label>No</Label>
-        </div>
-        <div>
-            <label>What sport do you play the most?</label>
-            <select name="favSports" required id="dropdown"> 
-                <option disabled selected value="none"> Select a sport from below</option>
-                <option value="Soccer"> Soccer </option>
-                <option value="Football"> Football </option>
-                <option value="Basketball"> Basketball </option>
-                <option value="Tennis"> Tennis </option>
-                <option value="Esports Pro"> Esports Pro </option>
+    </div>
+
+    <div id="Survey">
+        <form id="survey-form">
+            <div>
+                <label id="name-label">What is your name?</label>
+                <input id="name" name="name" type="text" required="" placeholder="Merrik">
+            </div>
+            <div>
+                <label id="email-label">Put your email below in the text box.</label>
+                <input type="email" id="email" required placeholder="Kurizus@gmail.com">
+            </div>
+            <div>
+                <label>What is your favorite movie?</label>
+                <input type="text" name="movie" placeholder="Enter your movie">
+            </div>
+            <div>
+                <label>Do you prefer driving or walking?</label>
+                <input type="radio" name="modeOfTransport" value="Driving"> <label>Driving</label> <input type="radio"
+                    value="Walking" name="modeOfTransport"> <label> Walking</label>
+            </div>
+            <div>
+                <label>Do you enjoy collecting cards?</label>
+                <input type="radio" name="cards" value="Yes"> <label>Yes</label> <input type="radio" name="cards"
+                    value="No"> <Label>No</Label>
+            </div>
+            <div>
+                <label>What sport do you play the most?</label>
+                <select name="favSports" required id="dropdown">
+                    <option disabled selected value="none"> Select a sport from below</option>
+                    <option value="Soccer"> Soccer </option>
+                    <option value="Football"> Football </option>
+                    <option value="Basketball"> Basketball </option>
+                    <option value="Tennis"> Tennis </option>
+                    <option value="Esports Pro"> Esports Pro </option>
                 </select>
-        </div>
-        <div>
-            <label>Do you enjoy Woodworking?</label>
-            <input type="radio" name="woodworking" value="Yes"> <label>Yes</label> <input type="radio" name="woodworking" value="No"> <Label>No</Label>
-        </div>
-        <div>
-            <label>Can you ride a bike?</label>
-            <input type="radio" name="biking" value="Yes"> <label>Yes</label> <input type="radio" name="biking" value="No"> <Label>No</Label>
-        </div>
-        <div>
-            <label>When enjoying your video games, what liquid do you tend to drink?</label>
-            <input type="text" name="drinks" placeholder="Enter your drink here">
-        </div>
-        <div>
-            <label>Have you watched Black Clover?</label>
-            <input type="radio" name="blackClover" value="Yes"> <label>Yes</label> <input type="radio" name="blackClover" value="No"> <Label>No</Label>
-        </div>
-        <div>
-            <label>What is your favorite subject in school? </label>
-            <input type="text" name="subject" placeholder="Enter subject here">
-        </div>
-        <div>
-            <label>In school, what school lunch do you enjoy the most?</label>
-            <input type="checkbox" name="school lunch" value="food"> <label>Cheese Burgers</label> <input type="checkbox"  value="food" name="school lunch"> <label>Pizza</label> <input type="checkbox" name="school lunch"  value="food"> <label>Chicken Patty</label> <input type="checkbox" name="school lunch"  value="food"> <label>Pasta </label> <input type="checkbox" name="school lunch"  value="food"> <label>Sandwhich</label>
-        </div>
-        <div>
-            <label id="number-label">When playing a scary game, how many times do you actually get scared?</label>
-            <input type="number" name="cry" id="number" min="1" max="99" class="form-control" placeholder="1-99">
-        </div>
+            </div>
+            <div>
+                <label>Do you enjoy Woodworking?</label>
+                <input type="radio" name="woodworking" value="Yes"> <label>Yes</label> <input type="radio"
+                    name="woodworking" value="No"> <Label>No</Label>
+            </div>
+            <div>
+                <label>Can you ride a bike?</label>
+                <input type="radio" name="biking" value="Yes"> <label>Yes</label> <input type="radio" name="biking"
+                    value="No"> <Label>No</Label>
+            </div>
+            <div>
+                <label>When enjoying your video games, what liquid do you tend to drink?</label>
+                <input type="text" name="drinks" placeholder="Enter your drink here">
+            </div>
+            <div>
+                <label>Have you watched Black Clover?</label>
+                <input type="radio" name="blackClover" value="Yes"> <label>Yes</label> <input type="radio"
+                    name="blackClover" value="No"> <Label>No</Label>
+            </div>
+            <div>
+                <label>What is your favorite subject in school? </label>
+                <input type="text" name="subject" placeholder="Enter subject here">
+            </div>
+            <div>
+                <label>In school, what school lunch do you enjoy the most?</label>
+                <input type="checkbox" name="school lunch" value="food"> <label>Cheese Burgers</label> <input
+                    type="checkbox" value="food" name="school lunch"> <label>Pizza</label> <input type="checkbox"
+                    name="school lunch" value="food"> <label>Chicken Patty</label> <input type="checkbox"
+                    name="school lunch" value="food"> <label>Pasta </label> <input type="checkbox" name="school lunch"
+                    value="food"> <label>Sandwhich</label>
+            </div>
+            <div>
+                <label id="number-label">When playing a scary game, how many times do you actually get scared?</label>
+                <input type="number" name="cry" id="number" min="1" max="99" class="form-control" required
+                    placeholder="1 to 99">
+            </div>
 
-        <input type="button" id="submit" value="submit">
-    </form>
-</div>
+            <div>
+                <label>Leave any comments you have down below!</label>
+                <br>
+                <textarea></textarea>
+            </div>
+
+            <input type="submit" id="submit" value="submit">
+        </form>
+    </div>
 
 
 
 </body>
+
 </html>

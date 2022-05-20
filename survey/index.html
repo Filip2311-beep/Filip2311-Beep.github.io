@@ -30,21 +30,21 @@
                 <input type="email" id="email" required placeholder="Kurizus@gmail.com">
             </div>
             <div id="qThree">
-                <label>What is your favorite movie?</label>
-                <input type="text" name="movie" placeholder="Enter your movie">
+                <label id="movie-label">What is your favorite movie?</label>
+                <input type="text" name="movie" placeholder="Enter your movie" id="movie">
             </div>
             <div id="qFour">
-                <label>Do you prefer driving or walking?</label>
+                <label id="prefer-lable">Do you prefer driving or walking?</label>
                 <input type="radio" name="modeOfTransport" value="Driving"> <label>Driving</label> <input type="radio"
                     value="Walking" name="modeOfTransport"> <label> Walking</label>
             </div>
             <div id="qFive">
-                <label>Do you enjoy collecting cards?</label>
-                <input type="radio" name="cards" value="Yes"> <label>Yes</label> <input type="radio" name="cards"
+                <label id="cards-label">Do you enjoy collecting cards?</label>
+                <input type="radio" name="cards" value="Yes" id="cards"> <label>Yes</label> <input type="radio" name="cards"
                     value="No"> <Label>No</Label>
             </div>
             <div id="qSix">
-                <label>What sport do you play the most?</label>
+                <label id="sports-label">What sport do you play the most?</label>
                 <select name="favSports" required id="dropdown">
                     <option disabled selected value=""> Select a sport from below</option>
                     <option value="Soccer"> Soccer </option>
@@ -55,30 +55,31 @@
                 </select>
             </div>
             <div id="qSeven">
-                <label>Do you enjoy Woodworking?</label>
+                <label id="woodworking-label">Do you enjoy Woodworking?</label>
                 <input type="radio" name="woodworking" value="Yes"> <label>Yes</label> <input type="radio"
                     name="woodworking" value="No"> <Label>No</Label>
             </div>
             <div id="qEight">
-                <label>Can you ride a bike?</label>
+                <label id="bike-label">Can you ride a bike?</label>
                 <input type="radio" name="biking" value="Yes"> <label>Yes</label> <input type="radio" name="biking"
                     value="No"> <Label>No</Label>
             </div>
             <div id="qNine">
-                <label>When enjoying your video games, what liquid do you tend to drink?</label>
+                <label id="games-label">When enjoying your video games, what liquid do you tend to drink?</label>
                 <input type="text" name="drinks" placeholder="Enter your drink here">
             </div>
             <div id="qTen">
-                <label>Have you watched Black Clover?</label>
+                <label id="show-label">Have you watched Black Clover?</label>
                 <input type="radio" name="blackClover" value="Yes"> <label>Yes</label> <input type="radio"
                     name="blackClover" value="No"> <Label>No</Label>
             </div>
             <div id="qEleven">
-                <label>What is your favorite subject in school? </label>
+                <label id="school-label">What is your favorite subject in school? </label>
                 <input type="text" name="subject" placeholder="Enter subject here">
             </div>
             <div id="qTwelve">
-                <label>In school, what school lunch do you enjoy the most?</label>
+                <label id="lunch-label">In school, what school lunch do you enjoy the most?</label>
+                <br>
                 <input type="checkbox" name="school lunch" value="food"> <label>Cheese Burgers</label> <input
                     type="checkbox" value="food" name="school lunch"> <label>Pizza</label> <input type="checkbox"
                     name="school lunch" value="food"> <label>Chicken Patty</label> <input type="checkbox"
@@ -90,11 +91,10 @@
                 <input type="number" name="cry" id="number" min="1" max="99" class="form-control" required
                     placeholder="1 to 99">
             </div>
-
-            <div>
-                <label>Leave any comments you have down below!</label>
+            <div id="comment">
+                <label id="comment-label">Leave any comments you have down below!</label>
                 <br>
-                <textarea></textarea>
+                <textarea>Place your comments here!</textarea>
             </div>
 
             <input type="submit" id="submit" value="submit">
